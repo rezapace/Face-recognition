@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include "head.html" %}
+</head>
+
+<body>
+    {% include "navbar.html" %}
+
+    <section id="hero" class="min-vh-100 d-grid align-content-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <hr />
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div>
+                            <img src="{{ url_for('static',filename='img/images.jpeg')}}" class="img-fluid" alt="">
+                        </div>
+                        <div>
+                            <h5>By: Erlan </h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <h1>Selamat Datang di </h1>
+                        <h1 class="welcome">Web Face Recognition!</h1>
+                        <h5>Klik Get Started untuk memulai Face Recognition</h5>
+                        <span>
+                            <a href="/fr_page" type="button" class="btn btn-outline-primary btn-lg py-3"><b>Get Started
+                                </b></a>
+                        </span>
+                        <span>
+                            <a href="/addprsn" type="button" class="btn btn-outline-secondary btn-lg py-3">
+                                <b>Tambah Data User</b></a>
+                        </span>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

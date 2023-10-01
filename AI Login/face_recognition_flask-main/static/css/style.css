@@ -1,0 +1,31 @@
+
+.bg-nav{
+    background: #ff0084;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.mt-100{
+    margin-top:100px;
+}
+
+.form-group row{
+    height: 50%;
+}
+
+.img-fluid{
+    height: 500px;
+}
+
+.welcome{
+    margin-bottom: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+h1{
+    margin-left: 10px;
+}
+h5{
+    margin-top: 50px;
+}
